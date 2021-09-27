@@ -14,13 +14,13 @@
   });
 
   /* Countdown Timer - The Final Countdown */
-	$('#clock').countdown('2021/12/28 08:58:58')
+	$('#clock').countdown('2022/03/26 08:58:58')
     .on('update.countdown', function(event) {
       var format = '<span class="counter-number">%D<br><span class="timer-text">Days</span></span><span class="counter-number">%H<br><span class="timer-text">Hours</span></span><span class="counter-number">%M<br><span class="timer-text">Minutes</span></span><span class="counter-number">%S<br><span class="timer-text">Seconds</span></span>';
       $(this).html(event.strftime(format));
     })
 	.on('finish.countdown', function(event) {
-    $(this).html('This offer has expired!')
+    $(this).html('')
       .parent().addClass('disabled');
   });
 
