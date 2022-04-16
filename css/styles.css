@@ -360,7 +360,7 @@ input[type='checkbox'] {
 }
 
 .header .text-container {
-	margin-bottom: 12rem;
+	margin-bottom: 6rem;
 }
 
 .header h1 {
@@ -368,7 +368,7 @@ input[type='checkbox'] {
 }
 
 .header .p-large {
-	margin-bottom: 2.75rem;
+	margin-bottom: 1.75rem;
 }
 
 .header .social-container {
@@ -429,7 +429,7 @@ input[type='checkbox'] {
 	}
 
 	.header .text-container {
-		margin-bottom: 6rem;
+		margin-bottom: 3rem;
 	}
 
 	.header .countdown {
